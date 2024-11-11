@@ -160,7 +160,6 @@ const datosDelCalendario = [
         if (contenidoDia) {
             contenedorDia.innerHTML = `
                 <div class="card">
-                    <h3>Contenido del día ${dia}</h3>
                     <p><strong>Paciente:</strong> ${contenidoDia.paciente}</p>
                     <p><strong>Receta:</strong> ${contenidoDia.receta}</p>
                     <p><strong>Pago:</strong> ${contenidoDia.pago}</p>
@@ -171,7 +170,6 @@ const datosDelCalendario = [
         } else {
             contenedorDia.innerHTML = `
                 <div class="card">
-                    <h3>Contenido del día ${dia}</h3>
                     <p>No hay información disponible. <strong>Tomar turno.</strong></p>
                 </div>
             `;
